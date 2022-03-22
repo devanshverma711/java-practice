@@ -1,0 +1,19 @@
+import java.util.*;
+public class sumofoddno {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter nth no.");
+        int n = sc.nextInt();
+        sumofodd(n);
+    }
+
+    private static void sumofodd(int n) {
+       int sum =0;
+        for(int i=0;i<=n;i++){
+            if(i%2!=0){
+                sum=sum+i;
+        }
+    }
+    System.out.println(" sum of n odd no. is "+sum);
+}
+}
