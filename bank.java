@@ -1,5 +1,5 @@
 package Bank;
-
+//  Packages
 public class bank {
     public static void main(String[] args){
         Account a1 = new Account();
@@ -12,6 +12,7 @@ public class bank {
 class Account{
     String name;
     String email;
+    // Access Modifiers
     private String password;
 
     public String getPassword(){
